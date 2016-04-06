@@ -27,8 +27,7 @@ setup(
     install_requires=[
         'Django>=1.8',
         'django-classy-tags>=0.3.3',
-        # django-polymorphic 0.8 will require different import statements
-        'django-polymorphic>0.2,<0.8',
+        'django-polymorphic>=0.8',
         'jsonfield>=0.9.6'
     ],
     packages=find_packages(exclude=["example", "example.*"]),
